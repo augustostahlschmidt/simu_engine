@@ -1,2 +1,2 @@
 # simu_engine
-Simulação de modelos discretos estocásticos 
+Trabalho do Grau B para a disciplina de Simulação e Modelagem de Sistemas
