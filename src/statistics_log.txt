@@ -1,0 +1,17 @@
+Estatisticas: 
+
+- Numero total de pessoas que passaram pelo restaurante durante a simulacao: 189
+
+- Numero de grupos de clientes: 79
+
+- Tempo total de simulacao: 385 minutos
+
+- Tamanho medio das filas: 
+	 - Fila dos Pedidos: 16,67
+	 - Fila das Mesas: 2,62
+	 - Fila do Balcao: 8,42
+
+- Tempo medio de espera das filas: 
+	 - Fila dos Pedidos: 85,80
+	 - Fila das Mesas: 72,20
+	 - Fila do Balcao: 59,41

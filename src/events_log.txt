@@ -1,0 +1,724 @@
+[Minuto 3] [Chegou] GRUPO_1 / qtdPessoas 1 -> Termina de pedir no minuto 10
+[Minuto 5] [Chegou] GRUPO_2 / qtdPessoas 3 -> Termina de pedir no minuto 12
+[Minuto 8] [Chegou] GRUPO_3 / qtdPessoas 1 -> Termina de pedir no minuto 14
+[Minuto 10] [Pedido Sendo Preparado] 1 do GRUPO_1 -> Fica pronto no minuto 18
+[Minuto 10] [Sentou balcao 1] GRUPO_1
+[Minuto 11] [Chegou] GRUPO_4 / qtdPessoas 1 -> Termina de pedir no minuto 18
+[Minuto 12] [Chegou] GRUPO_5 / qtdPessoas 3 -> Termina de pedir no minuto 18
+[Minuto 12] [Pedido Sendo Preparado] 2 do GRUPO_2 -> Fica pronto no minuto 28
+[Minuto 12] [Sentou mesa 1] GRUPO_2
+[Minuto 14] [Pedido Sendo Preparado] 3 do GRUPO_3 -> Fica pronto no minuto 29
+[Minuto 14] [Sentou balcao 2] GRUPO_3
+[Minuto 15] [Chegou] GRUPO_6 / qtdPessoas 3 -> Termina de pedir no minuto 22
+[Minuto 17] [Chegou] GRUPO_7 / qtdPessoas 3 -> Termina de pedir no minuto 25
+[Minuto 18] [Pedido Pronto] 1 GRUPO_1
+[Minuto 18] [Servido] GRUPO_1 -> termina de comer no minuto 30
+[Minuto 18] [Pedido Sendo Preparado] 4 do GRUPO_4 -> Fica pronto no minuto 38
+[Minuto 18] [Sentou balcao 3] GRUPO_4
+[Minuto 18] [Pedido adicionado na fila] GRUPO_5
+[Minuto 18] [Sentou mesa 2] GRUPO_5
+[Minuto 19] [Chegou] GRUPO_8 / qtdPessoas 4 -> Termina de pedir no minuto 24
+[Minuto 22] [Chegou] GRUPO_9 / qtdPessoas 4 -> Termina de pedir no minuto 29
+[Minuto 22] [Pedido adicionado na fila] GRUPO_6
+[Minuto 22] [Sentou mesa 3] GRUPO_6
+[Minuto 23] [Chegou] GRUPO_10 / qtdPessoas 3 -> Termina de pedir no minuto 29
+[Minuto 24] [Pedido adicionado na fila] GRUPO_8
+[Minuto 24] [Sentou mesa 4] GRUPO_8
+[Minuto 25] [Chegou] GRUPO_11 / qtdPessoas 2 -> Termina de pedir no minuto 31
+[Minuto 25] [Pedido adicionado na fila] GRUPO_7
+[Minuto 25] [Grupo foi pra fila de mesas] GRUPO_7
+[Minuto 27] [Chegou] GRUPO_12 / qtdPessoas 2 -> Termina de pedir no minuto 35
+[Minuto 28] [Pedido Pronto] 2 GRUPO_2
+[Minuto 28] [Pedido Saindo da Fila] 5 GRUPO_5
+[Minuto 28] [Pedido Sendo Preparado] 5 do GRUPO_5 -> Fica pronto no minuto 43
+[Minuto 28] [Servido] GRUPO_2 -> termina de comer no minuto 50
+[Minuto 29] [Pedido Pronto] 3 GRUPO_3
+[Minuto 29] [Pedido Saindo da Fila] 6 GRUPO_6
+[Minuto 29] [Pedido Sendo Preparado] 6 do GRUPO_6 -> Fica pronto no minuto 53
+[Minuto 29] [Servido] GRUPO_3 -> termina de comer no minuto 51
+[Minuto 29] [Pedido adicionado na fila] GRUPO_9
+[Minuto 29] [Grupo foi pra fila de mesas] GRUPO_9
+[Minuto 29] [Pedido adicionado na fila] GRUPO_10
+[Minuto 29] [Grupo foi pra fila de mesas] GRUPO_10
+[Minuto 30] [Chegou] GRUPO_13 / qtdPessoas 1 -> Termina de pedir no minuto 37
+[Minuto 30] [Leaving] GRUPO_1 [Terminou de comer, Balcao 1 liberado]
+[Minuto 31] [Pedido adicionado na fila] GRUPO_11
+[Minuto 31] [Sentou mesa 5] GRUPO_11
+[Minuto 32] [Chegou] GRUPO_14 / qtdPessoas 1 -> Termina de pedir no minuto 38
+[Minuto 35] [Chegou] GRUPO_15 / qtdPessoas 2 -> Termina de pedir no minuto 40
+[Minuto 35] [Pedido adicionado na fila] GRUPO_12
+[Minuto 35] [Sentou mesa 6] GRUPO_12
+[Minuto 37] [Chegou] GRUPO_16 / qtdPessoas 1 -> Termina de pedir no minuto 43
+[Minuto 37] [Pedido adicionado na fila] GRUPO_13
+[Minuto 37] [Sentou balcao 1] GRUPO_13
+[Minuto 38] [Pedido Pronto] 4 GRUPO_4
+[Minuto 38] [Pedido Saindo da Fila] 8 GRUPO_8
+[Minuto 38] [Pedido Sendo Preparado] 8 do GRUPO_8 -> Fica pronto no minuto 52
+[Minuto 38] [Servido] GRUPO_4 -> termina de comer no minuto 49
+[Minuto 38] [Pedido adicionado na fila] GRUPO_14
+[Minuto 38] [Sentou balcao 4] GRUPO_14
+[Minuto 39] [Chegou] GRUPO_17 / qtdPessoas 4 -> Termina de pedir no minuto 46
+[Minuto 40] [Pedido adicionado na fila] GRUPO_15
+[Minuto 40] [Sentou mesa 7] GRUPO_15
+[Minuto 42] [Chegou] GRUPO_18 / qtdPessoas 1 -> Termina de pedir no minuto 47
+[Minuto 43] [Pedido Pronto] 5 GRUPO_5
+[Minuto 43] [Pedido Saindo da Fila] 7 GRUPO_7
+[Minuto 43] [Pedido Sendo Preparado] 7 do GRUPO_7 -> Fica pronto no minuto 55
+[Minuto 43] [Servido] GRUPO_5 -> termina de comer no minuto 54
+[Minuto 43] [Pedido adicionado na fila] GRUPO_16
+[Minuto 43] [Sentou balcao 5] GRUPO_16
+[Minuto 44] [Chegou] GRUPO_19 / qtdPessoas 1 -> Termina de pedir no minuto 52
+[Minuto 45] [Chegou] GRUPO_20 / qtdPessoas 4 -> Termina de pedir no minuto 54
+[Minuto 46] [Chegou] GRUPO_21 / qtdPessoas 2 -> Termina de pedir no minuto 52
+[Minuto 46] [Pedido adicionado na fila] GRUPO_17
+[Minuto 46] [Grupo foi pra fila de mesas] GRUPO_17
+[Minuto 47] [Pedido adicionado na fila] GRUPO_18
+[Minuto 47] [Sentou balcao 6] GRUPO_18
+[Minuto 49] [Chegou] GRUPO_22 / qtdPessoas 3 -> Termina de pedir no minuto 57
+[Minuto 49] [Leaving] GRUPO_4 [Terminou de comer, Balcao 3 liberado]
+[Minuto 50] [Leaving] GRUPO_2 [Terminou de comer, Mesa 1 liberada]
+[Minuto 50] [Grupo Saiu da Fila de Mesas] GRUPO_9
+[Minuto 50] [Sentou mesa 1] GRUPO_9
+[Minuto 51] [Leaving] GRUPO_3 [Terminou de comer, Balcao 2 liberado]
+[Minuto 52] [Chegou] GRUPO_23 / qtdPessoas 3 -> Termina de pedir no minuto 58
+[Minuto 52] [Pedido Pronto] 8 GRUPO_8
+[Minuto 52] [Pedido Saindo da Fila] 9 GRUPO_9
+[Minuto 52] [Pedido Sendo Preparado] 9 do GRUPO_9 -> Fica pronto no minuto 60
+[Minuto 52] [Servido] GRUPO_8 -> termina de comer no minuto 70
+[Minuto 52] [Pedido adicionado na fila] GRUPO_19
+[Minuto 52] [Sentou balcao 2] GRUPO_19
+[Minuto 52] [Pedido adicionado na fila] GRUPO_21
+[Minuto 52] [Sentou mesa 8] GRUPO_21
+[Minuto 53] [Pedido Pronto] 6 GRUPO_6
+[Minuto 53] [Pedido Saindo da Fila] 10 GRUPO_10
+[Minuto 53] [Pedido Sendo Preparado] 10 do GRUPO_10 -> Fica pronto no minuto 61
+[Minuto 53] [Servido] GRUPO_6 -> termina de comer no minuto 59
+[Minuto 54] [Leaving] GRUPO_5 [Terminou de comer, Mesa 2 liberada]
+[Minuto 54] [Grupo Saiu da Fila de Mesas] GRUPO_17
+[Minuto 54] [Sentou mesa 2] GRUPO_17
+[Minuto 54] [Pedido adicionado na fila] GRUPO_20
+[Minuto 54] [Grupo foi pra fila de mesas] GRUPO_20
+[Minuto 55] [Pedido Pronto] 7 GRUPO_7
+[Minuto 55] [Pedido Saindo da Fila] 11 GRUPO_11
+[Minuto 55] [Pedido Sendo Preparado] 11 do GRUPO_11 -> Fica pronto no minuto 68
+[Minuto 55] [Grupo Saiu da Fila de Mesas] GRUPO_7
+[Minuto 55] [Takeaway] Pedido do grupo GRUPO_7 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 56] [Chegou] GRUPO_24 / qtdPessoas 4 -> Termina de pedir no minuto 64
+[Minuto 57] [Pedido adicionado na fila] GRUPO_22
+[Minuto 57] [Grupo foi pra fila de mesas] GRUPO_22
+[Minuto 58] [Chegou] GRUPO_25 / qtdPessoas 3 -> Termina de pedir no minuto 64
+[Minuto 58] [Pedido adicionado na fila] GRUPO_23
+[Minuto 58] [Grupo foi pra fila de mesas] GRUPO_23
+[Minuto 59] [Chegou] GRUPO_26 / qtdPessoas 1 -> Termina de pedir no minuto 62
+[Minuto 59] [Leaving] GRUPO_6 [Terminou de comer, Mesa 3 liberada]
+[Minuto 59] [Grupo Saiu da Fila de Mesas] GRUPO_20
+[Minuto 59] [Sentou mesa 3] GRUPO_20
+[Minuto 60] [Pedido Pronto] 9 GRUPO_9
+[Minuto 60] [Pedido Saindo da Fila] 12 GRUPO_12
+[Minuto 60] [Pedido Sendo Preparado] 12 do GRUPO_12 -> Fica pronto no minuto 81
+[Minuto 60] [Servido] GRUPO_9 -> termina de comer no minuto 86
+[Minuto 61] [Pedido Pronto] 10 GRUPO_10
+[Minuto 61] [Pedido Saindo da Fila] 13 GRUPO_13
+[Minuto 61] [Pedido Sendo Preparado] 13 do GRUPO_13 -> Fica pronto no minuto 80
+[Minuto 61] [Grupo Saiu da Fila de Mesas] GRUPO_10
+[Minuto 61] [Takeaway] Pedido do grupo GRUPO_10 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 62] [Chegou] GRUPO_27 / qtdPessoas 4 -> Termina de pedir no minuto 69
+[Minuto 62] [Pedido adicionado na fila] GRUPO_26
+[Minuto 62] [Sentou balcao 3] GRUPO_26
+[Minuto 64] [Pedido adicionado na fila] GRUPO_24
+[Minuto 64] [Grupo foi pra fila de mesas] GRUPO_24
+[Minuto 64] [Pedido adicionado na fila] GRUPO_25
+[Minuto 64] [Grupo foi pra fila de mesas] GRUPO_25
+[Minuto 65] [Chegou] GRUPO_28 / qtdPessoas 2 -> Termina de pedir no minuto 73
+[Minuto 68] [Chegou] GRUPO_29 / qtdPessoas 1 -> Termina de pedir no minuto 78
+[Minuto 68] [Pedido Pronto] 11 GRUPO_11
+[Minuto 68] [Pedido Saindo da Fila] 14 GRUPO_14
+[Minuto 68] [Pedido Sendo Preparado] 14 do GRUPO_14 -> Fica pronto no minuto 77
+[Minuto 68] [Servido] GRUPO_11 -> termina de comer no minuto 82
+[Minuto 69] [Pedido adicionado na fila] GRUPO_27
+[Minuto 69] [Grupo foi pra fila de mesas] GRUPO_27
+[Minuto 70] [Leaving] GRUPO_8 [Terminou de comer, Mesa 4 liberada]
+[Minuto 70] [Grupo Saiu da Fila de Mesas] GRUPO_24
+[Minuto 70] [Sentou mesa 4] GRUPO_24
+[Minuto 71] [Chegou] GRUPO_30 / qtdPessoas 4 -> Termina de pedir no minuto 77
+[Minuto 73] [Chegou] GRUPO_31 / qtdPessoas 1 -> Termina de pedir no minuto 82
+[Minuto 73] [Pedido adicionado na fila] GRUPO_28
+[Minuto 73] [Grupo foi pra fila de mesas] GRUPO_28
+[Minuto 74] [Chegou] GRUPO_32 / qtdPessoas 1 -> Termina de pedir no minuto 82
+[Minuto 75] [Chegou] GRUPO_33 / qtdPessoas 4 -> Termina de pedir no minuto 79
+[Minuto 77] [Chegou] GRUPO_34 / qtdPessoas 2 -> Termina de pedir no minuto 84
+[Minuto 77] [Pedido Pronto] 14 GRUPO_14
+[Minuto 77] [Pedido Saindo da Fila] 15 GRUPO_15
+[Minuto 77] [Pedido Sendo Preparado] 15 do GRUPO_15 -> Fica pronto no minuto 87
+[Minuto 77] [Servido] GRUPO_14 -> termina de comer no minuto 96
+[Minuto 77] [Pedido adicionado na fila] GRUPO_30
+[Minuto 77] [Grupo foi pra fila de mesas] GRUPO_30
+[Minuto 78] [Pedido adicionado na fila] GRUPO_29
+[Minuto 78] [Grupo foi pra fila do balcao] GRUPO_29
+[Minuto 79] [Chegou] GRUPO_35 / qtdPessoas 4 -> Termina de pedir no minuto 87
+[Minuto 79] [Pedido adicionado na fila] GRUPO_33
+[Minuto 79] [Grupo foi pra fila de mesas] GRUPO_33
+[Minuto 80] [Pedido Pronto] 13 GRUPO_13
+[Minuto 80] [Pedido Saindo da Fila] 16 GRUPO_16
+[Minuto 80] [Pedido Sendo Preparado] 16 do GRUPO_16 -> Fica pronto no minuto 101
+[Minuto 80] [Servido] GRUPO_13 -> termina de comer no minuto 94
+[Minuto 81] [Pedido Pronto] 12 GRUPO_12
+[Minuto 81] [Pedido Saindo da Fila] 17 GRUPO_17
+[Minuto 81] [Pedido Sendo Preparado] 17 do GRUPO_17 -> Fica pronto no minuto 104
+[Minuto 81] [Servido] GRUPO_12 -> termina de comer no minuto 97
+[Minuto 82] [Chegou] GRUPO_36 / qtdPessoas 2 -> Termina de pedir no minuto 88
+[Minuto 82] [Leaving] GRUPO_11 [Terminou de comer, Mesa 5 liberada]
+[Minuto 82] [Grupo Saiu da Fila de Mesas] GRUPO_28
+[Minuto 82] [Sentou mesa 5] GRUPO_28
+[Minuto 82] [Pedido adicionado na fila] GRUPO_31
+[Minuto 82] [Grupo foi pra fila do balcao] GRUPO_31
+[Minuto 82] [Pedido adicionado na fila] GRUPO_32
+[Minuto 82] [Grupo foi pra fila do balcao] GRUPO_32
+[Minuto 84] [Pedido adicionado na fila] GRUPO_34
+[Minuto 84] [Grupo foi pra fila de mesas] GRUPO_34
+[Minuto 85] [Chegou] GRUPO_37 / qtdPessoas 1 -> Termina de pedir no minuto 96
+[Minuto 86] [Chegou] GRUPO_38 / qtdPessoas 1 -> Termina de pedir no minuto 91
+[Minuto 86] [Leaving] GRUPO_9 [Terminou de comer, Mesa 1 liberada]
+[Minuto 86] [Grupo Saiu da Fila de Mesas] GRUPO_27
+[Minuto 86] [Sentou mesa 1] GRUPO_27
+[Minuto 87] [Pedido Pronto] 15 GRUPO_15
+[Minuto 87] [Pedido Saindo da Fila] 18 GRUPO_18
+[Minuto 87] [Pedido Sendo Preparado] 18 do GRUPO_18 -> Fica pronto no minuto 101
+[Minuto 87] [Servido] GRUPO_15 -> termina de comer no minuto 98
+[Minuto 87] [Pedido adicionado na fila] GRUPO_35
+[Minuto 87] [Grupo foi pra fila de mesas] GRUPO_35
+[Minuto 88] [Pedido adicionado na fila] GRUPO_36
+[Minuto 88] [Grupo foi pra fila de mesas] GRUPO_36
+[Minuto 90] [Chegou] GRUPO_39 / qtdPessoas 1 -> Termina de pedir no minuto 96
+[Minuto 91] [Pedido adicionado na fila] GRUPO_38
+[Minuto 91] [Grupo foi pra fila do balcao] GRUPO_38
+[Minuto 93] [Chegou] GRUPO_40 / qtdPessoas 1 -> Termina de pedir no minuto 98
+[Minuto 94] [Leaving] GRUPO_13 [Terminou de comer, Balcao 1 liberado]
+[Minuto 94] [Grupo Saiu da Fila do Balcao] GRUPO_29
+[Minuto 94] [Sentou balcao 1] GRUPO_29
+[Minuto 96] [Chegou] GRUPO_41 / qtdPessoas 1 -> Termina de pedir no minuto 102
+[Minuto 96] [Leaving] GRUPO_14 [Terminou de comer, Balcao 4 liberado]
+[Minuto 96] [Grupo Saiu da Fila do Balcao] GRUPO_31
+[Minuto 96] [Sentou balcao 4] GRUPO_31
+[Minuto 96] [Pedido adicionado na fila] GRUPO_37
+[Minuto 96] [Grupo foi pra fila do balcao] GRUPO_37
+[Minuto 96] [Pedido adicionado na fila] GRUPO_39
+[Minuto 96] [Grupo foi pra fila do balcao] GRUPO_39
+[Minuto 97] [Leaving] GRUPO_12 [Terminou de comer, Mesa 6 liberada]
+[Minuto 97] [Grupo Saiu da Fila de Mesas] GRUPO_34
+[Minuto 97] [Sentou mesa 6] GRUPO_34
+[Minuto 98] [Leaving] GRUPO_15 [Terminou de comer, Mesa 7 liberada]
+[Minuto 98] [Grupo Saiu da Fila de Mesas] GRUPO_36
+[Minuto 98] [Sentou mesa 7] GRUPO_36
+[Minuto 98] [Pedido adicionado na fila] GRUPO_40
+[Minuto 98] [Grupo foi pra fila do balcao] GRUPO_40
+[Minuto 99] [Chegou] GRUPO_42 / qtdPessoas 4 -> Termina de pedir no minuto 106
+[Minuto 101] [Chegou] GRUPO_43 / qtdPessoas 4 -> Termina de pedir no minuto 110
+[Minuto 101] [Pedido Pronto] 16 GRUPO_16
+[Minuto 101] [Pedido Saindo da Fila] 19 GRUPO_19
+[Minuto 101] [Pedido Sendo Preparado] 19 do GRUPO_19 -> Fica pronto no minuto 108
+[Minuto 101] [Servido] GRUPO_16 -> termina de comer no minuto 115
+[Minuto 101] [Pedido Pronto] 18 GRUPO_18
+[Minuto 101] [Pedido Saindo da Fila] 21 GRUPO_21
+[Minuto 101] [Pedido Sendo Preparado] 21 do GRUPO_21 -> Fica pronto no minuto 114
+[Minuto 101] [Servido] GRUPO_18 -> termina de comer no minuto 119
+[Minuto 102] [Chegou] GRUPO_44 / qtdPessoas 4 -> Termina de pedir no minuto 111
+[Minuto 102] [Pedido adicionado na fila] GRUPO_41
+[Minuto 102] [Grupo foi pra fila do balcao] GRUPO_41
+[Minuto 104] [Pedido Pronto] 17 GRUPO_17
+[Minuto 104] [Pedido Saindo da Fila] 20 GRUPO_20
+[Minuto 104] [Pedido Sendo Preparado] 20 do GRUPO_20 -> Fica pronto no minuto 117
+[Minuto 104] [Servido] GRUPO_17 -> termina de comer no minuto 122
+[Minuto 106] [Chegou] GRUPO_45 / qtdPessoas 4 -> Termina de pedir no minuto 113
+[Minuto 106] [Pedido adicionado na fila] GRUPO_42
+[Minuto 106] [Grupo foi pra fila de mesas] GRUPO_42
+[Minuto 108] [Chegou] GRUPO_46 / qtdPessoas 3 -> Termina de pedir no minuto 117
+[Minuto 108] [Pedido Pronto] 19 GRUPO_19
+[Minuto 108] [Pedido Saindo da Fila] 22 GRUPO_22
+[Minuto 108] [Pedido Sendo Preparado] 22 do GRUPO_22 -> Fica pronto no minuto 121
+[Minuto 108] [Servido] GRUPO_19 -> termina de comer no minuto 130
+[Minuto 110] [Chegou] GRUPO_47 / qtdPessoas 2 -> Termina de pedir no minuto 117
+[Minuto 110] [Pedido adicionado na fila] GRUPO_43
+[Minuto 110] [Grupo foi pra fila de mesas] GRUPO_43
+[Minuto 111] [Chegou] GRUPO_48 / qtdPessoas 3 -> Termina de pedir no minuto 119
+[Minuto 111] [Pedido adicionado na fila] GRUPO_44
+[Minuto 111] [Grupo foi pra fila de mesas] GRUPO_44
+[Minuto 112] [Chegou] GRUPO_49 / qtdPessoas 3 -> Termina de pedir no minuto 117
+[Minuto 113] [Pedido adicionado na fila] GRUPO_45
+[Minuto 113] [Grupo foi pra fila de mesas] GRUPO_45
+[Minuto 114] [Pedido Pronto] 21 GRUPO_21
+[Minuto 114] [Pedido Saindo da Fila] 23 GRUPO_23
+[Minuto 114] [Pedido Sendo Preparado] 23 do GRUPO_23 -> Fica pronto no minuto 115
+[Minuto 114] [Servido] GRUPO_21 -> termina de comer no minuto 120
+[Minuto 115] [Chegou] GRUPO_50 / qtdPessoas 1 -> Termina de pedir no minuto 121
+[Minuto 115] [Leaving] GRUPO_16 [Terminou de comer, Balcao 5 liberado]
+[Minuto 115] [Grupo Saiu da Fila do Balcao] GRUPO_32
+[Minuto 115] [Sentou balcao 5] GRUPO_32
+[Minuto 115] [Pedido Pronto] 23 GRUPO_23
+[Minuto 115] [Pedido Saindo da Fila] 26 GRUPO_26
+[Minuto 115] [Pedido Sendo Preparado] 26 do GRUPO_26 -> Fica pronto no minuto 126
+[Minuto 115] [Grupo Saiu da Fila de Mesas] GRUPO_23
+[Minuto 115] [Takeaway] Pedido do grupo GRUPO_23 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 116] [Chegou] GRUPO_51 / qtdPessoas 2 -> Termina de pedir no minuto 125
+[Minuto 117] [Pedido Pronto] 20 GRUPO_20
+[Minuto 117] [Pedido Saindo da Fila] 24 GRUPO_24
+[Minuto 117] [Pedido Sendo Preparado] 24 do GRUPO_24 -> Fica pronto no minuto 126
+[Minuto 117] [Servido] GRUPO_20 -> termina de comer no minuto 129
+[Minuto 117] [Pedido adicionado na fila] GRUPO_46
+[Minuto 117] [Grupo foi pra fila de mesas] GRUPO_46
+[Minuto 117] [Pedido adicionado na fila] GRUPO_47
+[Minuto 117] [Grupo foi pra fila de mesas] GRUPO_47
+[Minuto 117] [Pedido adicionado na fila] GRUPO_49
+[Minuto 117] [Grupo foi pra fila de mesas] GRUPO_49
+[Minuto 119] [Chegou] GRUPO_52 / qtdPessoas 2 -> Termina de pedir no minuto 125
+[Minuto 119] [Leaving] GRUPO_18 [Terminou de comer, Balcao 6 liberado]
+[Minuto 119] [Grupo Saiu da Fila do Balcao] GRUPO_38
+[Minuto 119] [Sentou balcao 6] GRUPO_38
+[Minuto 119] [Pedido adicionado na fila] GRUPO_48
+[Minuto 119] [Grupo foi pra fila de mesas] GRUPO_48
+[Minuto 120] [Leaving] GRUPO_21 [Terminou de comer, Mesa 8 liberada]
+[Minuto 120] [Grupo Saiu da Fila de Mesas] GRUPO_47
+[Minuto 120] [Sentou mesa 8] GRUPO_47
+[Minuto 121] [Chegou] GRUPO_53 / qtdPessoas 4 -> Termina de pedir no minuto 125
+[Minuto 121] [Pedido Pronto] 22 GRUPO_22
+[Minuto 121] [Pedido Saindo da Fila] 25 GRUPO_25
+[Minuto 121] [Pedido Sendo Preparado] 25 do GRUPO_25 -> Fica pronto no minuto 134
+[Minuto 121] [Grupo Saiu da Fila de Mesas] GRUPO_22
+[Minuto 121] [Takeaway] Pedido do grupo GRUPO_22 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 121] [Pedido adicionado na fila] GRUPO_50
+[Minuto 121] [Grupo foi pra fila do balcao] GRUPO_50
+[Minuto 122] [Leaving] GRUPO_17 [Terminou de comer, Mesa 2 liberada]
+[Minuto 122] [Grupo Saiu da Fila de Mesas] GRUPO_30
+[Minuto 122] [Sentou mesa 2] GRUPO_30
+[Minuto 124] [Chegou] GRUPO_54 / qtdPessoas 3 -> Termina de pedir no minuto 130
+[Minuto 125] [Pedido adicionado na fila] GRUPO_51
+[Minuto 125] [Grupo foi pra fila de mesas] GRUPO_51
+[Minuto 125] [Pedido adicionado na fila] GRUPO_52
+[Minuto 125] [Grupo foi pra fila de mesas] GRUPO_52
+[Minuto 125] [Pedido adicionado na fila] GRUPO_53
+[Minuto 125] [Grupo foi pra fila de mesas] GRUPO_53
+[Minuto 126] [Chegou] GRUPO_55 / qtdPessoas 2 -> Termina de pedir no minuto 132
+[Minuto 126] [Pedido Pronto] 26 GRUPO_26
+[Minuto 126] [Pedido Saindo da Fila] 27 GRUPO_27
+[Minuto 126] [Pedido Sendo Preparado] 27 do GRUPO_27 -> Fica pronto no minuto 139
+[Minuto 126] [Servido] GRUPO_26 -> termina de comer no minuto 143
+[Minuto 126] [Pedido Pronto] 24 GRUPO_24
+[Minuto 126] [Pedido Saindo da Fila] 28 GRUPO_28
+[Minuto 126] [Pedido Sendo Preparado] 28 do GRUPO_28 -> Fica pronto no minuto 135
+[Minuto 126] [Servido] GRUPO_24 -> termina de comer no minuto 137
+[Minuto 129] [Chegou] GRUPO_56 / qtdPessoas 2 -> Termina de pedir no minuto 133
+[Minuto 129] [Leaving] GRUPO_20 [Terminou de comer, Mesa 3 liberada]
+[Minuto 129] [Grupo Saiu da Fila de Mesas] GRUPO_33
+[Minuto 129] [Sentou mesa 3] GRUPO_33
+[Minuto 130] [Leaving] GRUPO_19 [Terminou de comer, Balcao 2 liberado]
+[Minuto 130] [Grupo Saiu da Fila do Balcao] GRUPO_37
+[Minuto 130] [Sentou balcao 2] GRUPO_37
+[Minuto 130] [Pedido adicionado na fila] GRUPO_54
+[Minuto 130] [Grupo foi pra fila de mesas] GRUPO_54
+[Minuto 132] [Chegou] GRUPO_57 / qtdPessoas 1 -> Termina de pedir no minuto 137
+[Minuto 132] [Pedido adicionado na fila] GRUPO_55
+[Minuto 132] [Grupo foi pra fila de mesas] GRUPO_55
+[Minuto 133] [Pedido adicionado na fila] GRUPO_56
+[Minuto 133] [Grupo foi pra fila de mesas] GRUPO_56
+[Minuto 134] [Chegou] GRUPO_58 / qtdPessoas 2 -> Termina de pedir no minuto 141
+[Minuto 134] [Pedido Pronto] 25 GRUPO_25
+[Minuto 134] [Pedido Saindo da Fila] 30 GRUPO_30
+[Minuto 134] [Pedido Sendo Preparado] 30 do GRUPO_30 -> Fica pronto no minuto 144
+[Minuto 134] [Grupo Saiu da Fila de Mesas] GRUPO_25
+[Minuto 134] [Takeaway] Pedido do grupo GRUPO_25 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 135] [Pedido Pronto] 28 GRUPO_28
+[Minuto 135] [Pedido Saindo da Fila] 29 GRUPO_29
+[Minuto 135] [Pedido Sendo Preparado] 29 do GRUPO_29 -> Fica pronto no minuto 150
+[Minuto 135] [Servido] GRUPO_28 -> termina de comer no minuto 156
+[Minuto 137] [Chegou] GRUPO_59 / qtdPessoas 2 -> Termina de pedir no minuto 143
+[Minuto 137] [Leaving] GRUPO_24 [Terminou de comer, Mesa 4 liberada]
+[Minuto 137] [Grupo Saiu da Fila de Mesas] GRUPO_35
+[Minuto 137] [Sentou mesa 4] GRUPO_35
+[Minuto 137] [Pedido adicionado na fila] GRUPO_57
+[Minuto 137] [Grupo foi pra fila do balcao] GRUPO_57
+[Minuto 138] [Chegou] GRUPO_60 / qtdPessoas 1 -> Termina de pedir no minuto 142
+[Minuto 139] [Pedido Pronto] 27 GRUPO_27
+[Minuto 139] [Pedido Saindo da Fila] 33 GRUPO_33
+[Minuto 139] [Pedido Sendo Preparado] 33 do GRUPO_33 -> Fica pronto no minuto 152
+[Minuto 139] [Servido] GRUPO_27 -> termina de comer no minuto 158
+[Minuto 140] [Chegou] GRUPO_61 / qtdPessoas 3 -> Termina de pedir no minuto 144
+[Minuto 141] [Pedido adicionado na fila] GRUPO_58
+[Minuto 141] [Grupo foi pra fila de mesas] GRUPO_58
+[Minuto 142] [Chegou] GRUPO_62 / qtdPessoas 1 -> Termina de pedir no minuto 149
+[Minuto 142] [Pedido adicionado na fila] GRUPO_60
+[Minuto 142] [Grupo foi pra fila do balcao] GRUPO_60
+[Minuto 143] [Leaving] GRUPO_26 [Terminou de comer, Balcao 3 liberado]
+[Minuto 143] [Grupo Saiu da Fila do Balcao] GRUPO_39
+[Minuto 143] [Sentou balcao 3] GRUPO_39
+[Minuto 143] [Pedido adicionado na fila] GRUPO_59
+[Minuto 143] [Grupo foi pra fila de mesas] GRUPO_59
+[Minuto 144] [Pedido Pronto] 30 GRUPO_30
+[Minuto 144] [Pedido Saindo da Fila] 31 GRUPO_31
+[Minuto 144] [Pedido Sendo Preparado] 31 do GRUPO_31 -> Fica pronto no minuto 159
+[Minuto 144] [Servido] GRUPO_30 -> termina de comer no minuto 161
+[Minuto 144] [Pedido adicionado na fila] GRUPO_61
+[Minuto 144] [Grupo foi pra fila de mesas] GRUPO_61
+[Minuto 145] [Chegou] GRUPO_63 / qtdPessoas 4 -> Termina de pedir no minuto 149
+[Minuto 148] [Chegou] GRUPO_64 / qtdPessoas 1 -> Termina de pedir no minuto 155
+[Minuto 149] [Chegou] GRUPO_65 / qtdPessoas 2 -> Termina de pedir no minuto 157
+[Minuto 149] [Pedido adicionado na fila] GRUPO_62
+[Minuto 149] [Grupo foi pra fila do balcao] GRUPO_62
+[Minuto 149] [Pedido adicionado na fila] GRUPO_63
+[Minuto 149] [Grupo foi pra fila de mesas] GRUPO_63
+[Minuto 150] [Pedido Pronto] 29 GRUPO_29
+[Minuto 150] [Pedido Saindo da Fila] 32 GRUPO_32
+[Minuto 150] [Pedido Sendo Preparado] 32 do GRUPO_32 -> Fica pronto no minuto 168
+[Minuto 150] [Servido] GRUPO_29 -> termina de comer no minuto 177
+[Minuto 152] [Chegou] GRUPO_66 / qtdPessoas 1 -> Termina de pedir no minuto 159
+[Minuto 152] [Pedido Pronto] 33 GRUPO_33
+[Minuto 152] [Pedido Saindo da Fila] 34 GRUPO_34
+[Minuto 152] [Pedido Sendo Preparado] 34 do GRUPO_34 -> Fica pronto no minuto 163
+[Minuto 152] [Servido] GRUPO_33 -> termina de comer no minuto 167
+[Minuto 155] [Chegou] GRUPO_67 / qtdPessoas 3 -> Termina de pedir no minuto 158
+[Minuto 155] [Pedido adicionado na fila] GRUPO_64
+[Minuto 155] [Grupo foi pra fila do balcao] GRUPO_64
+[Minuto 156] [Leaving] GRUPO_28 [Terminou de comer, Mesa 5 liberada]
+[Minuto 156] [Grupo Saiu da Fila de Mesas] GRUPO_51
+[Minuto 156] [Sentou mesa 5] GRUPO_51
+[Minuto 157] [Pedido adicionado na fila] GRUPO_65
+[Minuto 157] [Grupo foi pra fila de mesas] GRUPO_65
+[Minuto 158] [Chegou] GRUPO_68 / qtdPessoas 3 -> Termina de pedir no minuto 163
+[Minuto 158] [Leaving] GRUPO_27 [Terminou de comer, Mesa 1 liberada]
+[Minuto 158] [Grupo Saiu da Fila de Mesas] GRUPO_42
+[Minuto 158] [Sentou mesa 1] GRUPO_42
+[Minuto 158] [Pedido adicionado na fila] GRUPO_67
+[Minuto 158] [Grupo foi pra fila de mesas] GRUPO_67
+[Minuto 159] [Pedido Pronto] 31 GRUPO_31
+[Minuto 159] [Pedido Saindo da Fila] 35 GRUPO_35
+[Minuto 159] [Pedido Sendo Preparado] 35 do GRUPO_35 -> Fica pronto no minuto 167
+[Minuto 159] [Servido] GRUPO_31 -> termina de comer no minuto 181
+[Minuto 159] [Pedido adicionado na fila] GRUPO_66
+[Minuto 159] [Grupo foi pra fila do balcao] GRUPO_66
+[Minuto 161] [Chegou] GRUPO_69 / qtdPessoas 4 -> Termina de pedir no minuto 165
+[Minuto 161] [Leaving] GRUPO_30 [Terminou de comer, Mesa 2 liberada]
+[Minuto 161] [Grupo Saiu da Fila de Mesas] GRUPO_43
+[Minuto 161] [Sentou mesa 2] GRUPO_43
+[Minuto 163] [Chegou] GRUPO_70 / qtdPessoas 4 -> Termina de pedir no minuto 171
+[Minuto 163] [Pedido Pronto] 34 GRUPO_34
+[Minuto 163] [Pedido Saindo da Fila] 36 GRUPO_36
+[Minuto 163] [Pedido Sendo Preparado] 36 do GRUPO_36 -> Fica pronto no minuto 174
+[Minuto 163] [Servido] GRUPO_34 -> termina de comer no minuto 186
+[Minuto 163] [Pedido adicionado na fila] GRUPO_68
+[Minuto 163] [Grupo foi pra fila de mesas] GRUPO_68
+[Minuto 164] [Chegou] GRUPO_71 / qtdPessoas 3 -> Termina de pedir no minuto 171
+[Minuto 165] [Chegou] GRUPO_72 / qtdPessoas 4 -> Termina de pedir no minuto 172
+[Minuto 165] [Pedido adicionado na fila] GRUPO_69
+[Minuto 165] [Grupo foi pra fila de mesas] GRUPO_69
+[Minuto 166] [Chegou] GRUPO_73 / qtdPessoas 4 -> Termina de pedir no minuto 172
+[Minuto 167] [Leaving] GRUPO_33 [Terminou de comer, Mesa 3 liberada]
+[Minuto 167] [Grupo Saiu da Fila de Mesas] GRUPO_44
+[Minuto 167] [Sentou mesa 3] GRUPO_44
+[Minuto 167] [Pedido Pronto] 35 GRUPO_35
+[Minuto 167] [Pedido Saindo da Fila] 38 GRUPO_38
+[Minuto 167] [Pedido Sendo Preparado] 38 do GRUPO_38 -> Fica pronto no minuto 179
+[Minuto 167] [Servido] GRUPO_35 -> termina de comer no minuto 179
+[Minuto 168] [Chegou] GRUPO_74 / qtdPessoas 4 -> Termina de pedir no minuto 172
+[Minuto 168] [Pedido Pronto] 32 GRUPO_32
+[Minuto 168] [Pedido Saindo da Fila] 37 GRUPO_37
+[Minuto 168] [Pedido Sendo Preparado] 37 do GRUPO_37 -> Fica pronto no minuto 173
+[Minuto 168] [Servido] GRUPO_32 -> termina de comer no minuto 199
+[Minuto 170] [Chegou] GRUPO_75 / qtdPessoas 1 -> Termina de pedir no minuto 179
+[Minuto 171] [Pedido adicionado na fila] GRUPO_70
+[Minuto 171] [Grupo foi pra fila de mesas] GRUPO_70
+[Minuto 171] [Pedido adicionado na fila] GRUPO_71
+[Minuto 171] [Grupo foi pra fila de mesas] GRUPO_71
+[Minuto 172] [Pedido adicionado na fila] GRUPO_72
+[Minuto 172] [Grupo foi pra fila de mesas] GRUPO_72
+[Minuto 172] [Pedido adicionado na fila] GRUPO_73
+[Minuto 172] [Grupo foi pra fila de mesas] GRUPO_73
+[Minuto 172] [Pedido adicionado na fila] GRUPO_74
+[Minuto 172] [Grupo foi pra fila de mesas] GRUPO_74
+[Minuto 173] [Chegou] GRUPO_76 / qtdPessoas 2 -> Termina de pedir no minuto 180
+[Minuto 173] [Pedido Pronto] 37 GRUPO_37
+[Minuto 173] [Pedido Saindo da Fila] 39 GRUPO_39
+[Minuto 173] [Pedido Sendo Preparado] 39 do GRUPO_39 -> Fica pronto no minuto 195
+[Minuto 173] [Servido] GRUPO_37 -> termina de comer no minuto 196
+[Minuto 174] [Chegou] GRUPO_77 / qtdPessoas 1 -> Termina de pedir no minuto 184
+[Minuto 174] [Pedido Pronto] 36 GRUPO_36
+[Minuto 174] [Pedido Saindo da Fila] 40 GRUPO_40
+[Minuto 174] [Pedido Sendo Preparado] 40 do GRUPO_40 -> Fica pronto no minuto 186
+[Minuto 174] [Servido] GRUPO_36 -> termina de comer no minuto 185
+[Minuto 177] [Chegou] GRUPO_78 / qtdPessoas 3 -> Termina de pedir no minuto 183
+[Minuto 177] [Leaving] GRUPO_29 [Terminou de comer, Balcao 1 liberado]
+[Minuto 177] [Grupo Saiu da Fila do Balcao] GRUPO_40
+[Minuto 177] [Sentou balcao 1] GRUPO_40
+[Minuto 179] [Pedido Pronto] 38 GRUPO_38
+[Minuto 179] [Pedido Saindo da Fila] 41 GRUPO_41
+[Minuto 179] [Pedido Sendo Preparado] 41 do GRUPO_41 -> Fica pronto no minuto 189
+[Minuto 179] [Servido] GRUPO_38 -> termina de comer no minuto 217
+[Minuto 179] [Leaving] GRUPO_35 [Terminou de comer, Mesa 4 liberada]
+[Minuto 179] [Grupo Saiu da Fila de Mesas] GRUPO_45
+[Minuto 179] [Sentou mesa 4] GRUPO_45
+[Minuto 179] [Pedido adicionado na fila] GRUPO_75
+[Minuto 179] [Grupo foi pra fila do balcao] GRUPO_75
+[Minuto 180] [Chegou] GRUPO_79 / qtdPessoas 1 -> Termina de pedir no minuto 185
+[Minuto 180] [Pedido adicionado na fila] GRUPO_76
+[Minuto 180] [Grupo foi pra fila de mesas] GRUPO_76
+[Minuto 181] [Leaving] GRUPO_31 [Terminou de comer, Balcao 4 liberado]
+[Minuto 181] [Grupo Saiu da Fila do Balcao] GRUPO_41
+[Minuto 181] [Sentou balcao 4] GRUPO_41
+[Minuto 183] [Pedido adicionado na fila] GRUPO_78
+[Minuto 183] [Grupo foi pra fila de mesas] GRUPO_78
+[Minuto 184] [Pedido adicionado na fila] GRUPO_77
+[Minuto 184] [Grupo foi pra fila do balcao] GRUPO_77
+[Minuto 185] [Leaving] GRUPO_36 [Terminou de comer, Mesa 7 liberada]
+[Minuto 185] [Grupo Saiu da Fila de Mesas] GRUPO_52
+[Minuto 185] [Sentou mesa 7] GRUPO_52
+[Minuto 185] [Pedido adicionado na fila] GRUPO_79
+[Minuto 185] [Grupo foi pra fila do balcao] GRUPO_79
+[Minuto 186] [Leaving] GRUPO_34 [Terminou de comer, Mesa 6 liberada]
+[Minuto 186] [Grupo Saiu da Fila de Mesas] GRUPO_55
+[Minuto 186] [Sentou mesa 6] GRUPO_55
+[Minuto 186] [Pedido Pronto] 40 GRUPO_40
+[Minuto 186] [Pedido Saindo da Fila] 42 GRUPO_42
+[Minuto 186] [Pedido Sendo Preparado] 42 do GRUPO_42 -> Fica pronto no minuto 190
+[Minuto 186] [Servido] GRUPO_40 -> termina de comer no minuto 204
+[Minuto 189] [Pedido Pronto] 41 GRUPO_41
+[Minuto 189] [Pedido Saindo da Fila] 43 GRUPO_43
+[Minuto 189] [Pedido Sendo Preparado] 43 do GRUPO_43 -> Fica pronto no minuto 204
+[Minuto 189] [Servido] GRUPO_41 -> termina de comer no minuto 215
+[Minuto 190] [Pedido Pronto] 42 GRUPO_42
+[Minuto 190] [Pedido Saindo da Fila] 44 GRUPO_44
+[Minuto 190] [Pedido Sendo Preparado] 44 do GRUPO_44 -> Fica pronto no minuto 201
+[Minuto 190] [Servido] GRUPO_42 -> termina de comer no minuto 214
+[Minuto 195] [Pedido Pronto] 39 GRUPO_39
+[Minuto 195] [Pedido Saindo da Fila] 45 GRUPO_45
+[Minuto 195] [Pedido Sendo Preparado] 45 do GRUPO_45 -> Fica pronto no minuto 210
+[Minuto 195] [Servido] GRUPO_39 -> termina de comer no minuto 220
+[Minuto 196] [Leaving] GRUPO_37 [Terminou de comer, Balcao 2 liberado]
+[Minuto 196] [Grupo Saiu da Fila do Balcao] GRUPO_50
+[Minuto 196] [Sentou balcao 2] GRUPO_50
+[Minuto 199] [Leaving] GRUPO_32 [Terminou de comer, Balcao 5 liberado]
+[Minuto 199] [Grupo Saiu da Fila do Balcao] GRUPO_57
+[Minuto 199] [Sentou balcao 5] GRUPO_57
+[Minuto 201] [Pedido Pronto] 44 GRUPO_44
+[Minuto 201] [Pedido Saindo da Fila] 46 GRUPO_46
+[Minuto 201] [Pedido Sendo Preparado] 46 do GRUPO_46 -> Fica pronto no minuto 211
+[Minuto 201] [Servido] GRUPO_44 -> termina de comer no minuto 229
+[Minuto 204] [Leaving] GRUPO_40 [Terminou de comer, Balcao 1 liberado]
+[Minuto 204] [Grupo Saiu da Fila do Balcao] GRUPO_60
+[Minuto 204] [Sentou balcao 1] GRUPO_60
+[Minuto 204] [Pedido Pronto] 43 GRUPO_43
+[Minuto 204] [Pedido Saindo da Fila] 47 GRUPO_47
+[Minuto 204] [Pedido Sendo Preparado] 47 do GRUPO_47 -> Fica pronto no minuto 223
+[Minuto 204] [Servido] GRUPO_43 -> termina de comer no minuto 225
+[Minuto 210] [Pedido Pronto] 45 GRUPO_45
+[Minuto 210] [Pedido Saindo da Fila] 49 GRUPO_49
+[Minuto 210] [Pedido Sendo Preparado] 49 do GRUPO_49 -> Fica pronto no minuto 226
+[Minuto 210] [Servido] GRUPO_45 -> termina de comer no minuto 219
+[Minuto 211] [Pedido Pronto] 46 GRUPO_46
+[Minuto 211] [Pedido Saindo da Fila] 48 GRUPO_48
+[Minuto 211] [Pedido Sendo Preparado] 48 do GRUPO_48 -> Fica pronto no minuto 229
+[Minuto 211] [Grupo Saiu da Fila de Mesas] GRUPO_46
+[Minuto 211] [Takeaway] Pedido do grupo GRUPO_46 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 214] [Leaving] GRUPO_42 [Terminou de comer, Mesa 1 liberada]
+[Minuto 214] [Grupo Saiu da Fila de Mesas] GRUPO_53
+[Minuto 214] [Sentou mesa 1] GRUPO_53
+[Minuto 215] [Leaving] GRUPO_41 [Terminou de comer, Balcao 4 liberado]
+[Minuto 215] [Grupo Saiu da Fila do Balcao] GRUPO_62
+[Minuto 215] [Sentou balcao 4] GRUPO_62
+[Minuto 217] [Leaving] GRUPO_38 [Terminou de comer, Balcao 6 liberado]
+[Minuto 217] [Grupo Saiu da Fila do Balcao] GRUPO_64
+[Minuto 217] [Sentou balcao 6] GRUPO_64
+[Minuto 219] [Leaving] GRUPO_45 [Terminou de comer, Mesa 4 liberada]
+[Minuto 219] [Grupo Saiu da Fila de Mesas] GRUPO_63
+[Minuto 219] [Sentou mesa 4] GRUPO_63
+[Minuto 220] [Leaving] GRUPO_39 [Terminou de comer, Balcao 3 liberado]
+[Minuto 220] [Grupo Saiu da Fila do Balcao] GRUPO_66
+[Minuto 220] [Sentou balcao 3] GRUPO_66
+[Minuto 223] [Pedido Pronto] 47 GRUPO_47
+[Minuto 223] [Pedido Saindo da Fila] 50 GRUPO_50
+[Minuto 223] [Pedido Sendo Preparado] 50 do GRUPO_50 -> Fica pronto no minuto 245
+[Minuto 223] [Servido] GRUPO_47 -> termina de comer no minuto 243
+[Minuto 225] [Leaving] GRUPO_43 [Terminou de comer, Mesa 2 liberada]
+[Minuto 225] [Grupo Saiu da Fila de Mesas] GRUPO_69
+[Minuto 225] [Sentou mesa 2] GRUPO_69
+[Minuto 226] [Pedido Pronto] 49 GRUPO_49
+[Minuto 226] [Pedido Saindo da Fila] 51 GRUPO_51
+[Minuto 226] [Pedido Sendo Preparado] 51 do GRUPO_51 -> Fica pronto no minuto 237
+[Minuto 226] [Grupo Saiu da Fila de Mesas] GRUPO_49
+[Minuto 226] [Takeaway] Pedido do grupo GRUPO_49 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 229] [Leaving] GRUPO_44 [Terminou de comer, Mesa 3 liberada]
+[Minuto 229] [Grupo Saiu da Fila de Mesas] GRUPO_70
+[Minuto 229] [Sentou mesa 3] GRUPO_70
+[Minuto 229] [Pedido Pronto] 48 GRUPO_48
+[Minuto 229] [Pedido Saindo da Fila] 52 GRUPO_52
+[Minuto 229] [Pedido Sendo Preparado] 52 do GRUPO_52 -> Fica pronto no minuto 241
+[Minuto 229] [Grupo Saiu da Fila de Mesas] GRUPO_48
+[Minuto 229] [Takeaway] Pedido do grupo GRUPO_48 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 237] [Pedido Pronto] 51 GRUPO_51
+[Minuto 237] [Pedido Saindo da Fila] 53 GRUPO_53
+[Minuto 237] [Pedido Sendo Preparado] 53 do GRUPO_53 -> Fica pronto no minuto 245
+[Minuto 237] [Servido] GRUPO_51 -> termina de comer no minuto 261
+[Minuto 241] [Pedido Pronto] 52 GRUPO_52
+[Minuto 241] [Pedido Saindo da Fila] 54 GRUPO_54
+[Minuto 241] [Pedido Sendo Preparado] 54 do GRUPO_54 -> Fica pronto no minuto 251
+[Minuto 241] [Servido] GRUPO_52 -> termina de comer no minuto 253
+[Minuto 243] [Leaving] GRUPO_47 [Terminou de comer, Mesa 8 liberada]
+[Minuto 243] [Grupo Saiu da Fila de Mesas] GRUPO_56
+[Minuto 243] [Sentou mesa 8] GRUPO_56
+[Minuto 245] [Pedido Pronto] 50 GRUPO_50
+[Minuto 245] [Pedido Saindo da Fila] 55 GRUPO_55
+[Minuto 245] [Pedido Sendo Preparado] 55 do GRUPO_55 -> Fica pronto no minuto 255
+[Minuto 245] [Servido] GRUPO_50 -> termina de comer no minuto 260
+[Minuto 245] [Pedido Pronto] 53 GRUPO_53
+[Minuto 245] [Pedido Saindo da Fila] 56 GRUPO_56
+[Minuto 245] [Pedido Sendo Preparado] 56 do GRUPO_56 -> Fica pronto no minuto 270
+[Minuto 245] [Servido] GRUPO_53 -> termina de comer no minuto 262
+[Minuto 251] [Pedido Pronto] 54 GRUPO_54
+[Minuto 251] [Pedido Saindo da Fila] 57 GRUPO_57
+[Minuto 251] [Pedido Sendo Preparado] 57 do GRUPO_57 -> Fica pronto no minuto 268
+[Minuto 251] [Grupo Saiu da Fila de Mesas] GRUPO_54
+[Minuto 251] [Takeaway] Pedido do grupo GRUPO_54 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 253] [Leaving] GRUPO_52 [Terminou de comer, Mesa 7 liberada]
+[Minuto 253] [Grupo Saiu da Fila de Mesas] GRUPO_58
+[Minuto 253] [Sentou mesa 7] GRUPO_58
+[Minuto 255] [Pedido Pronto] 55 GRUPO_55
+[Minuto 255] [Pedido Saindo da Fila] 58 GRUPO_58
+[Minuto 255] [Pedido Sendo Preparado] 58 do GRUPO_58 -> Fica pronto no minuto 268
+[Minuto 255] [Servido] GRUPO_55 -> termina de comer no minuto 262
+[Minuto 260] [Leaving] GRUPO_50 [Terminou de comer, Balcao 2 liberado]
+[Minuto 260] [Grupo Saiu da Fila do Balcao] GRUPO_75
+[Minuto 260] [Sentou balcao 2] GRUPO_75
+[Minuto 261] [Leaving] GRUPO_51 [Terminou de comer, Mesa 5 liberada]
+[Minuto 261] [Grupo Saiu da Fila de Mesas] GRUPO_59
+[Minuto 261] [Sentou mesa 5] GRUPO_59
+[Minuto 262] [Leaving] GRUPO_53 [Terminou de comer, Mesa 1 liberada]
+[Minuto 262] [Grupo Saiu da Fila de Mesas] GRUPO_72
+[Minuto 262] [Sentou mesa 1] GRUPO_72
+[Minuto 262] [Leaving] GRUPO_55 [Terminou de comer, Mesa 6 liberada]
+[Minuto 262] [Grupo Saiu da Fila de Mesas] GRUPO_65
+[Minuto 262] [Sentou mesa 6] GRUPO_65
+[Minuto 268] [Pedido Pronto] 57 GRUPO_57
+[Minuto 268] [Pedido Saindo da Fila] 60 GRUPO_60
+[Minuto 268] [Pedido Sendo Preparado] 60 do GRUPO_60 -> Fica pronto no minuto 276
+[Minuto 268] [Servido] GRUPO_57 -> termina de comer no minuto 284
+[Minuto 268] [Pedido Pronto] 58 GRUPO_58
+[Minuto 268] [Pedido Saindo da Fila] 59 GRUPO_59
+[Minuto 268] [Pedido Sendo Preparado] 59 do GRUPO_59 -> Fica pronto no minuto 279
+[Minuto 268] [Servido] GRUPO_58 -> termina de comer no minuto 300
+[Minuto 270] [Pedido Pronto] 56 GRUPO_56
+[Minuto 270] [Pedido Saindo da Fila] 61 GRUPO_61
+[Minuto 270] [Pedido Sendo Preparado] 61 do GRUPO_61 -> Fica pronto no minuto 283
+[Minuto 270] [Servido] GRUPO_56 -> termina de comer no minuto 278
+[Minuto 276] [Pedido Pronto] 60 GRUPO_60
+[Minuto 276] [Pedido Saindo da Fila] 62 GRUPO_62
+[Minuto 276] [Pedido Sendo Preparado] 62 do GRUPO_62 -> Fica pronto no minuto 286
+[Minuto 276] [Servido] GRUPO_60 -> termina de comer no minuto 306
+[Minuto 278] [Leaving] GRUPO_56 [Terminou de comer, Mesa 8 liberada]
+[Minuto 278] [Grupo Saiu da Fila de Mesas] GRUPO_76
+[Minuto 278] [Sentou mesa 8] GRUPO_76
+[Minuto 279] [Pedido Pronto] 59 GRUPO_59
+[Minuto 279] [Pedido Saindo da Fila] 63 GRUPO_63
+[Minuto 279] [Pedido Sendo Preparado] 63 do GRUPO_63 -> Fica pronto no minuto 298
+[Minuto 279] [Servido] GRUPO_59 -> termina de comer no minuto 297
+[Minuto 283] [Pedido Pronto] 61 GRUPO_61
+[Minuto 283] [Pedido Saindo da Fila] 64 GRUPO_64
+[Minuto 283] [Pedido Sendo Preparado] 64 do GRUPO_64 -> Fica pronto no minuto 305
+[Minuto 283] [Grupo Saiu da Fila de Mesas] GRUPO_61
+[Minuto 283] [Takeaway] Pedido do grupo GRUPO_61 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 284] [Leaving] GRUPO_57 [Terminou de comer, Balcao 5 liberado]
+[Minuto 284] [Grupo Saiu da Fila do Balcao] GRUPO_77
+[Minuto 284] [Sentou balcao 5] GRUPO_77
+[Minuto 286] [Pedido Pronto] 62 GRUPO_62
+[Minuto 286] [Pedido Saindo da Fila] 65 GRUPO_65
+[Minuto 286] [Pedido Sendo Preparado] 65 do GRUPO_65 -> Fica pronto no minuto 299
+[Minuto 286] [Servido] GRUPO_62 -> termina de comer no minuto 296
+[Minuto 296] [Leaving] GRUPO_62 [Terminou de comer, Balcao 4 liberado]
+[Minuto 296] [Grupo Saiu da Fila do Balcao] GRUPO_79
+[Minuto 296] [Sentou balcao 4] GRUPO_79
+[Minuto 297] [Leaving] GRUPO_59 [Terminou de comer, Mesa 5 liberada]
+[Minuto 298] [Pedido Pronto] 63 GRUPO_63
+[Minuto 298] [Pedido Saindo da Fila] 67 GRUPO_67
+[Minuto 298] [Pedido Sendo Preparado] 67 do GRUPO_67 -> Fica pronto no minuto 310
+[Minuto 298] [Servido] GRUPO_63 -> termina de comer no minuto 308
+[Minuto 299] [Pedido Pronto] 65 GRUPO_65
+[Minuto 299] [Pedido Saindo da Fila] 66 GRUPO_66
+[Minuto 299] [Pedido Sendo Preparado] 66 do GRUPO_66 -> Fica pronto no minuto 315
+[Minuto 299] [Servido] GRUPO_65 -> termina de comer no minuto 330
+[Minuto 300] [Leaving] GRUPO_58 [Terminou de comer, Mesa 7 liberada]
+[Minuto 305] [Pedido Pronto] 64 GRUPO_64
+[Minuto 305] [Pedido Saindo da Fila] 68 GRUPO_68
+[Minuto 305] [Pedido Sendo Preparado] 68 do GRUPO_68 -> Fica pronto no minuto 315
+[Minuto 305] [Servido] GRUPO_64 -> termina de comer no minuto 343
+[Minuto 306] [Leaving] GRUPO_60 [Terminou de comer, Balcao 1 liberado]
+[Minuto 308] [Leaving] GRUPO_63 [Terminou de comer, Mesa 4 liberada]
+[Minuto 308] [Grupo Saiu da Fila de Mesas] GRUPO_73
+[Minuto 308] [Sentou mesa 4] GRUPO_73
+[Minuto 310] [Pedido Pronto] 67 GRUPO_67
+[Minuto 310] [Pedido Saindo da Fila] 69 GRUPO_69
+[Minuto 310] [Pedido Sendo Preparado] 69 do GRUPO_69 -> Fica pronto no minuto 321
+[Minuto 310] [Grupo Saiu da Fila de Mesas] GRUPO_67
+[Minuto 310] [Takeaway] Pedido do grupo GRUPO_67 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 315] [Pedido Pronto] 66 GRUPO_66
+[Minuto 315] [Pedido Saindo da Fila] 70 GRUPO_70
+[Minuto 315] [Pedido Sendo Preparado] 70 do GRUPO_70 -> Fica pronto no minuto 327
+[Minuto 315] [Servido] GRUPO_66 -> termina de comer no minuto 325
+[Minuto 315] [Pedido Pronto] 68 GRUPO_68
+[Minuto 315] [Pedido Saindo da Fila] 71 GRUPO_71
+[Minuto 315] [Pedido Sendo Preparado] 71 do GRUPO_71 -> Fica pronto no minuto 328
+[Minuto 315] [Grupo Saiu da Fila de Mesas] GRUPO_68
+[Minuto 315] [Takeaway] Pedido do grupo GRUPO_68 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 321] [Pedido Pronto] 69 GRUPO_69
+[Minuto 321] [Pedido Saindo da Fila] 72 GRUPO_72
+[Minuto 321] [Pedido Sendo Preparado] 72 do GRUPO_72 -> Fica pronto no minuto 336
+[Minuto 321] [Servido] GRUPO_69 -> termina de comer no minuto 332
+[Minuto 325] [Leaving] GRUPO_66 [Terminou de comer, Balcao 3 liberado]
+[Minuto 327] [Pedido Pronto] 70 GRUPO_70
+[Minuto 327] [Pedido Saindo da Fila] 73 GRUPO_73
+[Minuto 327] [Pedido Sendo Preparado] 73 do GRUPO_73 -> Fica pronto no minuto 339
+[Minuto 327] [Servido] GRUPO_70 -> termina de comer no minuto 332
+[Minuto 328] [Pedido Pronto] 71 GRUPO_71
+[Minuto 328] [Pedido Saindo da Fila] 74 GRUPO_74
+[Minuto 328] [Pedido Sendo Preparado] 74 do GRUPO_74 -> Fica pronto no minuto 339
+[Minuto 328] [Grupo Saiu da Fila de Mesas] GRUPO_71
+[Minuto 328] [Takeaway] Pedido do grupo GRUPO_71 ficou pronto enquanto ele(s) estava(m) na fila.
+[Minuto 330] [Leaving] GRUPO_65 [Terminou de comer, Mesa 6 liberada]
+[Minuto 332] [Leaving] GRUPO_69 [Terminou de comer, Mesa 2 liberada]
+[Minuto 332] [Grupo Saiu da Fila de Mesas] GRUPO_74
+[Minuto 332] [Sentou mesa 2] GRUPO_74
+[Minuto 332] [Leaving] GRUPO_70 [Terminou de comer, Mesa 3 liberada]
+[Minuto 332] [Grupo Saiu da Fila de Mesas] GRUPO_78
+[Minuto 332] [Sentou mesa 3] GRUPO_78
+[Minuto 336] [Pedido Pronto] 72 GRUPO_72
+[Minuto 336] [Pedido Saindo da Fila] 75 GRUPO_75
+[Minuto 336] [Pedido Sendo Preparado] 75 do GRUPO_75 -> Fica pronto no minuto 348
+[Minuto 336] [Servido] GRUPO_72 -> termina de comer no minuto 346
+[Minuto 339] [Pedido Pronto] 73 GRUPO_73
+[Minuto 339] [Pedido Saindo da Fila] 76 GRUPO_76
+[Minuto 339] [Pedido Sendo Preparado] 76 do GRUPO_76 -> Fica pronto no minuto 346
+[Minuto 339] [Servido] GRUPO_73 -> termina de comer no minuto 357
+[Minuto 339] [Pedido Pronto] 74 GRUPO_74
+[Minuto 339] [Pedido Saindo da Fila] 78 GRUPO_78
+[Minuto 339] [Pedido Sendo Preparado] 78 do GRUPO_78 -> Fica pronto no minuto 353
+[Minuto 339] [Servido] GRUPO_74 -> termina de comer no minuto 358
+[Minuto 343] [Leaving] GRUPO_64 [Terminou de comer, Balcao 6 liberado]
+[Minuto 346] [Leaving] GRUPO_72 [Terminou de comer, Mesa 1 liberada]
+[Minuto 346] [Pedido Pronto] 76 GRUPO_76
+[Minuto 346] [Pedido Saindo da Fila] 77 GRUPO_77
+[Minuto 346] [Pedido Sendo Preparado] 77 do GRUPO_77 -> Fica pronto no minuto 352
+[Minuto 346] [Servido] GRUPO_76 -> termina de comer no minuto 381
+[Minuto 348] [Pedido Pronto] 75 GRUPO_75
+[Minuto 348] [Pedido Saindo da Fila] 79 GRUPO_79
+[Minuto 348] [Pedido Sendo Preparado] 79 do GRUPO_79 -> Fica pronto no minuto 353
+[Minuto 348] [Servido] GRUPO_75 -> termina de comer no minuto 367
+[Minuto 352] [Pedido Pronto] 77 GRUPO_77
+[Minuto 352] [Servido] GRUPO_77 -> termina de comer no minuto 384
+[Minuto 353] [Pedido Pronto] 78 GRUPO_78
+[Minuto 353] [Servido] GRUPO_78 -> termina de comer no minuto 374
+[Minuto 353] [Pedido Pronto] 79 GRUPO_79
+[Minuto 353] [Servido] GRUPO_79 -> termina de comer no minuto 374
+[Minuto 357] [Leaving] GRUPO_73 [Terminou de comer, Mesa 4 liberada]
+[Minuto 358] [Leaving] GRUPO_74 [Terminou de comer, Mesa 2 liberada]
+[Minuto 367] [Leaving] GRUPO_75 [Terminou de comer, Balcao 2 liberado]
+[Minuto 374] [Leaving] GRUPO_78 [Terminou de comer, Mesa 3 liberada]
+[Minuto 374] [Leaving] GRUPO_79 [Terminou de comer, Balcao 4 liberado]
+[Minuto 381] [Leaving] GRUPO_76 [Terminou de comer, Mesa 8 liberada]
+[Minuto 384] [Leaving] GRUPO_77 [Terminou de comer, Balcao 5 liberado]
+[Minuto 385] Restaurante fechou.
+
